@@ -9,7 +9,7 @@ Table
 03	Image Gallery	6 photo grid with captions	img, alt, figure, figcaption, width/height
 04	My Daily Routine	Morning to night schedule	Semantic HTML: header, main, section, footer
 05	Contact Me Card	Clickable email, phone, social	a, href, mailto:, tel:, target="_blank"
-06	Movie Review Post	Blog-style review	article, h1-h6, blockquote, cite, time
+06	Tech COnt	Blog-style review	article, h1-h6, blockquote, cite, time
 07	Weekly Timetable	School/work schedule	table, thead, tbody, tr, th, td, colspan
 08	Sign Up Form	Registration page	form, input, label, button, type, required
 09	Recipe Page	Ingredients + steps	hr, dl/dt/dd, nested lists, semantic sections

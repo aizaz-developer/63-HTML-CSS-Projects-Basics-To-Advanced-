@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>11 First Style Page</title>
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Internal CSS: now has 3+ rules -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+        main {
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <header class="header">
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Inline CSS demonstrated here -->
+        <h1 class="welcome" style="color: #e74c3c; text-align: center;">Welcome To My Page</h1>
+        
+        <p>This is my first styled page using all three CSS methods.</p>
+        
+        <h2 class="explore">Explore</h2>
+        
+        <p id="tech">Technology</p>
+        <p>Culture</p>
+        <p>Design</p>
+    </main>
+
+    <footer>
+        <p>Built with HTML & CSS — Project 11</p>
+    </footer>
+
+</body>
+</html>

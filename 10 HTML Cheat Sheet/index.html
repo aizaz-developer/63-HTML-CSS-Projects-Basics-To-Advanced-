@@ -1,0 +1,88 @@
+
+---
+
+# 📁 Project 10: HTML Cheat Sheet
+
+## `index.html`
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Cheat Sheet</title>
+</head>
+<body>
+
+    <header>
+        <h1>HTML Cheat Sheet</h1>
+        <p>A quick reference guide for essential HTML tags and concepts.</p>
+    </header>
+
+    <main>
+
+        <section>
+            <h2>Document Structure</h2>
+            <pre>
+&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+  &lt;head&gt;...&lt;/head&gt;
+  &lt;body&gt;...&lt;/body&gt;
+&lt;/html&gt;
+            </pre>
+        </section>
+
+        <section>
+            <h2>Text Formatting</h2>
+            <ul>
+                <li><code>&lt;strong&gt;</code> — <strong>Bold text</strong></li>
+                <li><code>&lt;em&gt;</code> — <em>Italic text</em></li>
+                <li><code>&lt;sup&gt;</code> — Superscript: E = mc<sup>2</sup></li>
+                <li><code>&lt;sub&gt;</code> — Subscript: H<sub>2</sub>O</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Code Display</h2>
+            <p>Use <code>&lt;code&gt;</code> for inline code like <code>console.log()</code>.</p>
+            <p>Use <code>&lt;pre&gt;</code> for preformatted blocks:</p>
+            <pre>
+function greet() {
+    return "Hello, World!";
+}
+            </pre>
+        </section>
+
+        <section>
+            <h2>Keyboard Input</h2>
+            <p>Press <kbd>Ctrl</kbd> + <kbd>S</kbd> to save your file.</p>
+            <p>Press <kbd>Alt</kbd> + <kbd>F4</kbd> to close the window.</p>
+        </section>
+
+        <section>
+            <h2>Collapsible Sections</h2>
+            <details>
+                <summary>What is semantic HTML?</summary>
+                <p>Semantic HTML uses tags that describe the meaning of content, not just its appearance. Examples include <code>&lt;header&gt;</code>, <code>&lt;main&gt;</code>, <code>&lt;article&gt;</code>, and <code>&lt;footer&gt;</code>.</p>
+            </details>
+
+            <details>
+                <summary>What is the difference between block and inline elements?</summary>
+                <p>Block elements take up the full width available and start on a new line (e.g., <code>&lt;div&gt;</code>, <code>&lt;p&gt;</code>). Inline elements only take up as much width as necessary and do not force a new line (e.g., <code>&lt;span&gt;</code>, <code>&lt;a&gt;</code>).</p>
+            </details>
+
+            <details>
+                <summary>Why is the alt attribute important?</summary>
+                <p>The <code>alt</code> attribute provides alternative text for images. It is essential for screen readers, displays when images fail to load, and improves SEO.</p>
+            </details>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Compiled by <cite>Aizaz</cite> | HTML Mastery Phase Complete</p>
+    </footer>
+
+</body>
+</html>

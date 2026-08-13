@@ -1,0 +1,54 @@
+/* Universal selector — reset everything */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Class selector */
+.header {
+    background-color: #fcbaba;
+    padding: 15px;
+    text-align: center;
+}
+
+/* ID selector */
+#tech {
+    color: #3707f7;
+    font-size: 18px;
+}
+
+/* Descendant selector — links inside nav ONLY */
+nav a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Element selector */
+p {
+    background-color: #f7f707;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 6px;
+}
+
+/* Grouping selector — multiple headings at once */
+h1, h2 {
+    font-family: 'Georgia', sans-serif;
+    margin: 15px 0;
+}
+
+/* Class selector */
+.welcome {
+    font-size: 32px;
+}
+
+.explore {
+    font-size: 24px;
+    color: #2c3e50;
+}
