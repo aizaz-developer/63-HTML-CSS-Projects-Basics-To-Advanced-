@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+background-color: #f0f2f5;
+color: #333333;
+line-height: 1.6;
+padding: 20px;
+}
+
+header{
+    text-align: center;
+margin-bottom: 40px;
+}
+
+header h1{
+    font-size: 2.8rem;
+font-weight: 700;
+color: #1a1a1a;
+margin-bottom: 10px;
+}
+
+header p{
+font-size: 1.1rem;
+color: #666666;
+}
+
+section{
+background-color: #ffffff;
+border-radius: 10px;
+padding: 28px;
+margin-bottom: 24px;
+box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+section h2{
+    font-size: 1.5rem;
+font-weight: 600;
+margin-bottom: 20px;
+padding-bottom: 10px;
+border-bottom: 2px solid #e9ecef;
+color: #2c3e50;
+}
+
+.label{
+    ont-size: 0.75rem;
+color: #888888;
+background-color: #f1f3f5;
+padding: 3px 8px;
+border-radius: 4px;
+margin-left: 10px;
+font-family: monospace;
+}
+
+.align-left{
+    text-align: left;
+}
+
+.align-right{
+    text-align: right;
+}
+
+.align-center{
+    text-align: center;
+}
+
+.align-justify{
+    text-align: justify;
+}
+
+.spacing-tight{
+    letter-spacing: -0.05em
+}
+
+.spacing-normal{
+    letter-spacing: 0;
+}
+
+.spacing-wide{
+letter-spacing: 0.15em;
+}
+
+.spacing-extra-wide{
+letter-spacing: 0.3em;
+}
+
+.letter-spacing p{
+    margin-bottom: 14px;
+font-size: 1.2rem;
+padding: 10px;
+background-color: #f8f9fa;
+border-radius: 6px;
+}
+
+.words-tight{
+    word-spacing: -2px;
+}
+
+.words-normal{
+    word-spacing: normal;
+}
+.words-loose{
+    word-spacing: 12px;
+}
+
+.word-spacing p {
+margin-bottom: 14px;
+font-size: 1.1rem;
+padding: 10px;
+background-color: #f8f9fa;
+border-radius: 6px;
+}
+.transform-upper
+{
+   text-transform: uppercase;
+}
+
+.transform-lower
+{
+   text-transform: lowercase;
+}
+
+.transform-cap
+{
+   text-transform: capitalize;
+}
+
+.text-transform p{
+margin-bottom: 14px;
+font-size: 1.1rem;
+padding: 10px;
+background-color: #f8f9fa;
+border-radius: 6px;
+}
+
+.combined-hero{
+background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+color: #ffffff;
+text-align: center;
+padding: 50px 30px;
+}
+.hero-heading{
+font-size: 2.5rem;
+font-weight: 900;
+text-transform: uppercase;
+letter-spacing: 0.2em;
+word-spacing: 0.3em;
+margin-bottom: 15px;
+}
+
+.hero-subtext{
+font-size: 1.2rem;
+font-weight: 300;
+letter-spacing: 0.1em;
+opacity: 0.9;
+}
+
+footer{
+text-align: center;
+margin-top: 40px;
+padding: 20px;
+color: #888888;
+font-size: 0.9rem;
+}

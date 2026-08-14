@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+    background-color: #f5f5f5;
+    color: #333333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+header{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+header h1{
+    font-family: 'Merriweather', serif;
+    font-size: 3rem;
+    font-weight: 700;
+    color: #222222;
+    margin-bottom: 10px
+}
+
+header p{
+    font-size: 1.2rem;
+    color: #666666;
+}
+
+section{
+    background-color:#ffffff ;
+    border-radius: 12px;
+    padding: 30px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1)
+}
+
+section h2{
+font-size: 1.8rem;
+font-weight: 600;
+margin-bottom: 20px;
+padding-bottom: 10px;
+border-bottom: 2px solid #e0e0e0;
+color: #444444;
+}
+
+.font-families div{
+    margin-bottom: 16px;
+    padding: 12px;
+    background-color: #fafafa;
+    border-radius: 6px;
+    border-left: 4px solid #ddd;
+}
+
+.font-families .serif{
+    font-family: 'Merriweather', serif;
+}
+.font-families .sans{
+    font-family: 'Inter', sans-serif;
+}
+.font-families .mono{
+    font-family: 'Fira Code', monospace;
+}
+
+.size-12{
+    font-size: 12px;
+}
+
+.size-16{
+    font-size: 16px;
+}
+.size-24{
+    font-size: 24px;
+}
+.size-32{
+    font-size: 32px;
+}
+
+.size-48{
+    font-size: 48px;
+}
+.font-sizes p {
+    margin-bottom: 12px;
+}
+
+.label{
+font-size: 0.8rem;
+color: #888888;
+margin-left: 10px;
+background-color: #f0f0f0;
+padding: 2px 8px;
+border-radius: 4px;
+}
+
+.w-300{
+    font-weight: 300;
+}
+
+.w-400{
+    font-weight: 400;
+}
+
+.w-600{
+    font-weight: 600;
+}
+.w-700{
+    font-weight: 700;
+}
+.w-900{
+    font-weight: 900;
+}
+
+.font-weights p{
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
+.line-heights .tight{
+    line-height: 1.1;
+margin-bottom: 20px;
+padding: 15px;
+background-color: #fff5f5;
+border-radius: 6px;
+}
+
+.line-heights .normal{
+line-height: 1.6;
+margin-bottom: 20px;
+padding: 15px;
+background-color: #f5fff5;
+border-radius: 6px;
+}
+
+.line-heights .relaxed{
+line-height: 2.0;
+margin-bottom: 20px;
+padding: 15px;
+background-color: #f5f5ff;
+border-radius: 6px;
+}
+
+.line-heights h3{
+font-size: 1rem;
+color: #666666;
+margin-bottom: 8px;
+}
+
+footer{
+text-align: center;
+margin-top: 40px;
+padding: 20px;
+color: #888888;
+font-size: 0.9rem;
+}
