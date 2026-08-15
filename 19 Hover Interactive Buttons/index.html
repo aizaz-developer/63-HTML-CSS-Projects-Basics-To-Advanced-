@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 19 Hover Button</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+     <header>
+        <h1>Hover & Focus Lab</h1>
+        <p>Interactive States In CSS</p>
+     </header>
+
+     <!-- main -->
+      <main>
+        <!-- Section 1 Button Gallery -->
+         <section class="button-gallery">
+            <h2>Button Gallery</h2>
+            <button class="btn btn-primary">Primary</button>
+            <button class="btn btn-danger">Danger</button>
+            <button class="btn btn-ghost">Ghost</button>
+            <button class="btn btn-pill">Pill</button>
+            <button class="btn btn-scale">Scale</button>
+            <button class="btn btn-shadow">Shadow</button>
+         </section>
+
+         <!-- Section 2 — Link Navigation -->
+          <section class="link-nav">
+            <h2>Link Navigation</h2>
+            <a href="#" class="nav-link">Home</a>
+            <a href="#" class="nav-link">About</a>
+            <a href="#" class="nav-link">Services</a>
+            <a href="#" class="nav-link">Contact</a>
+          </section>
+          <!-- Section 3 Input Form -->
+          <section class="input-form">
+            <h2>Input Focus</h2>
+            <form>
+                <input type="text" class="form-input" placeholder="Your name">
+                <input type="email" class="form-input" placeholder="Your email">
+                <textarea class="form-input" placeholder="Your message" rows="3"></textarea>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+          </section>
+            <!-- Section 4 Cursor Structure -->
+          <section class="cursor-showcase">
+                <h2>Cursor Type</h2>
+                <div class="cursor-box cursor-default"><p>default</p></div>
+                <div class="cursor-box cursor-pointer"><p>pointer</p></div>
+                <div class="cursor-box cursor-text"><p>text</p></div>
+                <div class="cursor-box cursor-move"><p>move</p></div>
+                <div class="cursor-box cursor-not-allowed"><p>not-allowed</p></div>
+                <div class="cursor-box cursor-wait"><p>wait</p></div>
+
+          </section>
+          <!-- Section 5 Outline Demo -->
+          <section class="outline-demo">
+            <div class="outline-box outline-solid" tabindex="0"><p>Solid Outline</p></div>
+            <div class="outline-box outline-dashed" tabindex="0"><p>Dashed Outline</p></div>
+            <div class="outline-box outline-offset" tabindex="0"><p>Outline Offset</p></div>
+            <!-- tab index=0 means so this div is focsable
+             normally buttons and links are only focasuable -->
+          </section>
+      </main>
+      <footer>
+        <p>Project 19 — Hover & Focus Lab</p>
+      </footer>
+</body>
+</html>

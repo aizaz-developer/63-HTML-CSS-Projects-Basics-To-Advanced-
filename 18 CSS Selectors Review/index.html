@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project 18 — CSS Selectors Quiz</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header id="main-header">
+    <h1>CSS Selectors Quiz</h1>
+    <p>Can you spot which selector is which?</p>
+  </header>
+
+  <main>
+    <section class="quiz-section">
+      <h2>Element Selector</h2>
+      <p>Every paragraph on this page is styled by the element selector.</p>
+      <p>This one too. No class, no ID — just the tag name.</p>
+    </section>
+
+    <section class="quiz-section">
+      <h2>Class Selector</h2>
+      <p class="highlight">This paragraph uses the .highlight class.</p>
+      <p class="highlight">So does this one. Classes are reusable.</p>
+      <p>This paragraph has no class. It stays normal.</p>
+    </section>
+
+    <section class="quiz-section">
+      <h2>ID Selector</h2>
+      <p id="unique">This paragraph has an ID of #unique. IDs are one-of-a-kind.</p>
+    </section>
+
+    <section class="quiz-section">
+      <h2>Descendant Selector</h2>
+      <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+      </nav>
+      <p><a href="#">This link is outside nav</a> — it looks different.</p>
+    </section>
+
+    <section class="quiz-section">
+      <h2>Grouping Selector</h2>
+      <h3>Grouped Heading</h3>
+      <h4>Also Grouped</h4>
+      <p>h3 and h4 share the same style via grouping.</p>
+    </section>
+
+    <section class="quiz-section">
+      <h2>Universal Selector</h2>
+      <p>The * selector reset all margins and padding on every element.</p>
+      <div>
+        <span>Even this span.</span>
+        <strong>And this strong.</strong>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Project 18 — CSS Selectors</p>
+  </footer>
+</body>
+</html>
