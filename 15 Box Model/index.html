@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>15 Box Model</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>The CSS Box Model</h1>
+        <p>Every HTML Element is a Box</p>
+    </header>
+
+    <!-- Main -->
+    <main>
+        <!-- Section 1: Main Diagram -->
+        <section class="main-diagram">
+            <h2>Visual Diagram</h2>
+            <div class="margin-box">
+                <span class="layer-label">margin</span>
+                <div class="border-box">
+                    <span class="layer-label">border</span>
+                    <div class="padding-box">
+                        <span class="layer-label">padding</span>
+                        <div class="content-box">
+                            <span class="layer-label">content</span>
+                            <p>200px × 100px</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 2: Layer Breakdown -->
+        <section class="layer-breakdown">
+            <h2>Layer Breakdown</h2>
+            <div class="info-card margin-card">
+                <h3>Margin</h3>
+                <p>Transparent space outside the border. Pushes other elements away.</p>
+            </div>
+            <div class="info-card border-card">
+                <h3>Border</h3>
+                <p>The visible edge around padding. Controlled by width, style, and color.</p>
+            </div>
+            <div class="info-card padding-card">
+                <h3>Padding</h3>
+                <p>Space inside the border. Uses the element's background color.</p>
+            </div>
+            <div class="info-card content-card">
+                <h3>Content</h3>
+                <p>The actual text, images, or child elements. Sized with width and height.</p>
+            </div>
+        </section>
+
+        <!-- Section 3: Box-Sizing Demo -->
+        <section class="sizing-demo">
+            <h2>box-sizing Comparison</h2>
+            <div class="content-box-demo">
+                <h3>content-box</h3>
+                <p>width = content only. Padding and border add to total size.</p>
+                <div class="demo-inner"></div>
+            </div>
+            <div class="border-box-demo">
+                <h3>border-box</h3>
+                <p>width = content + padding + border. Total size stays fixed.</p>
+                <div class="demo-inner"></div>
+            </div>
+        </section>
+
+        <!-- Section 4: Margin Collapse -->
+        <section class="margin-collapse">
+            <h2>Margin Collapse</h2>
+            <p>When two vertical margins touch, the larger one wins. They do not add up.</p>
+            <div class="collapse-box" id="box-a">
+                <p>Box A — margin-bottom: 40px</p>
+            </div>
+            <div class="collapse-box" id="box-b">
+                <p>Box B — margin-top: 20px</p>
+            </div>
+            <p class="result">Result: 40px gap (not 60px)</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Project 15 — CSS Box Model</p>
+    </footer>
+</body>
+</html>

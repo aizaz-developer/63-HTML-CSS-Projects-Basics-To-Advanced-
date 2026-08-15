@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f0f2f5;
+  color: #333;
+  text-align: center;
+}
+
+header {
+  padding: 30px 20px;
+}
+
+header h1 {
+  font-size: 2.2rem;
+  margin-bottom: 8px;
+}
+
+header p {
+  color: #666;
+}
+
+section {
+  margin: 20px;
+  background: #fff;
+  border-radius: 10px;
+  padding: 25px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+section h2 {
+  margin-bottom: 20px;
+  font-size: 1.4rem;
+  color: #2c3e50;
+}
+
+/* ===== HERO ===== */
+.hero {
+  height: 300px;
+  background-image: url('https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #fff;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.5);
+}
+
+.hero h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 1.1rem;
+}
+
+/* ===== COMPARE ===== */
+.cover-box,
+.contain-box {
+  display: inline-block;
+  width: 200px;
+  height: 150px;
+  margin: 10px;
+  border: 2px solid #333;
+  background-image: url('https://images.unsplash.com/photo-1472214103451-9374bd1c798e?w=400');
+  background-repeat: no-repeat;
+}
+
+.cover-box {
+  background-size: cover;
+}
+
+.contain-box {
+  background-size: contain;
+}
+
+.cover-box p,
+.contain-box p {
+  background: rgba(0,0,0,0.6);
+  color: #fff;
+  padding: 5px;
+  font-size: 0.9rem;
+}
+
+/* ===== POSITION GRID ===== */
+.pos-box {
+  display: inline-block;
+  width: 100px;
+  height: 80px;
+  margin: 5px;
+  border: 2px solid #333;
+  background-image: url('https://images.unsplash.com/photo-1472214103451-9374bd1c798e?w=200');
+  background-repeat: no-repeat;
+  background-size: 300%;
+  vertical-align: top;
+}
+
+.pos-tl { background-position: left top; }
+.pos-tc { background-position: center top; }
+.pos-tr { background-position: right top; }
+.pos-cl { background-position: left center; }
+.pos-cc { background-position: center; }
+.pos-cr { background-position: right center; }
+.pos-bl { background-position: left bottom; }
+.pos-bc { background-position: center bottom; }
+.pos-br { background-position: right bottom; }
+
+.pos-box p {
+  background: rgba(255,255,255,0.9);
+  font-size: 0.7rem;
+  padding: 4px;
+}
+
+/* ===== FOOTER ===== */
+footer {
+  padding: 20px;
+  color: #888;
+  font-size: 0.9rem;
+}
